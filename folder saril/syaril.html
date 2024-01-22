@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- ======= Sidebar ======= -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </span>
+                        <span class="title">Noesantara Foods</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="grid-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="file-tray-full-outline"></ion-icon>
+                        </span>
+                        <span class="title">Tables</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="document-attach-outline"></ion-icon>
+                        </span>
+                        <span class="title">Detail</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href=".">
+                        <span class="icon">
+                            <ion-icon name="receipt-outline"></ion-icon>
+                        </span>
+                        <span class="title">Form</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="list-outline"></ion-icon>
+                        </span>
+                        <span class="title">List</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                        </span>
+                        <span class="title">Login</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="id-card-outline"></ion-icon>    
+                        </span>
+                        <span class="title">Registration</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="images-outline"></ion-icon>
+                        </span>
+                        <span class="title">Gallery</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Main -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input id="searchInput" type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/Me.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- cards -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">6,769</div>
+                        <div class="cardName">Pengunjung</div>
+                    </div>
+            
+                    <div class="iconBx">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+            
+                <div class="card">
+                    <div>
+                        <div class="numbers">7,989</div>
+                        <div class="cardName">Penjualan</div>
+                    </div>
+            
+                    <div class="iconBx">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">555</div>
+                        <div class="cardName">Komentar</div>
+                    </div>
+            
+                    <div class="iconBx">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                </div> <!-- Missing closing div for the third card -->
+            
+                <div class="card">
+                    <div>
+                        <div class="numbers">15 Jt</div>
+                        <div class="cardName">Pendapatan</div>
+                    </div>
+            
+                    <div class="iconBx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Order Details List -->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Pesanan Terbaru</h2>
+                        <a href="#" class="btn">Lihat Semua</a>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Nama Makanan</td>
+                                <td>Harga</td>
+                                <td>Pembayaran</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="order-row">
+                                <td>Mie Aceh</td>
+                                <td>25k</td>
+                                <td>Dibayar</td>
+                                <td><span class="status terkirim">Terkirim</span></td>
+                            </tr>
+
+                            <tr class="order-row">
+                                <td>Pempek</td>
+                                <td>12k</td>
+                                <td>Dibayar</td>
+                                <td><span class="status terkirim">Terkirim</span></td>
+                            </tr>
+
+                            <tr class="order-row">
+                                <td>Nasi Gudeg</td>
+                                <td>35k</td>
+                                <td>Dibayar</td>
+                                <td><span class="status terkirim">Terkirim</span></td>
+                            </tr>
+
+                            <tr class="order-row">
+                                <td>Soto Banjar</td>
+                                <td>20k</td>
+                                <td>Batal</td>
+                                <td><span class="status batal">Batal</span></td>
+                            </tr>
+
+                            <tr class="order-row">
+                                <td>Rendang</td>
+                                <td>20k</td>
+                                <td>Sedang dikirim</td>
+                                <td><span class="status proses">Proses</span></td>
+                            </tr>
+
+                            <tr class="order-row">
+                                <td>Serabi</td>
+                                <td>10k</td>
+                                <td>Dibayar</td>
+                                <td><span class="status terkirim">Terkirim</span></td>
+                            </tr>
+
+                            <tr class="order-row">
+                                <td>Otak-otak</td>
+                                <td>10k</td>
+                                <td>Sedang dikirim</td>
+                                <td><span class="status proses">Proses</span></td>
+                            </tr>
+
+                            <tr class="order-row">
+                                <td>Sate Bandeng</td>
+                                <td>22k</td>
+                                <td>Dibayar</td>
+                                <td><span class="status terkirim">Terkirim</span></td>
+                            </tr>
+                            
+                            <tr class="order-row">
+                                <td>Ayam Betutu</td>
+                                <td>40k</td>
+                                <td>Sedang dikirim</td>
+                                <td><span class="status proses">Proses</span></td>
+                            </tr>
+
+                            <tr class="order-row">
+                                <td>Kerak Telor</td>
+                                <td>9k</td>
+                                <td>Dibayar</td>
+                                <td><span class="status terkirim">Terkirim</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pelanggan Baru -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Daftar Pelanggan</h2>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Nizar.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Nizar <br> <span>Isreal</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Edu.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Fadhlu <br> <span>Jepang Barat</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Abhe.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Abhe <br> <span>Cibaduyut</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Muaadz.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Mu'aadz <br> <span>Dubai</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Lylia.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Indri <br> <span>Isekai</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Mas kapin.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Kelvin <br> <span>Saturnus</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Adis.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Adis Rain <br> <span>Decul</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Shiba pcr kim jong unchh.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Shiba <br> <span>Korea Utara</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="assets/js/main.js"></script>
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

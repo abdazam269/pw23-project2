@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+</head>
+
+<body>
+    <!-- ======= Sidebar ======= -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="restaurant-outline"></ion-icon>
+                        </span>
+                        <span class="title">Noesantara Foods</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="grid-outline"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="file-tray-full-outline"></ion-icon>
+                        </span>
+                        <span class="title">Tables</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="document-attach-outline"></ion-icon>
+                        </span>
+                        <span class="title">Detail</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href=".">
+                        <span class="icon">
+                            <ion-icon name="receipt-outline"></ion-icon>
+                        </span>
+                        <span class="title">Form</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="list-outline"></ion-icon>
+                        </span>
+                        <span class="title">List</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="person-circle-outline"></ion-icon>
+                        </span>
+                        <span class="title">Login</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="id-card-outline"></ion-icon>    
+                        </span>
+                        <span class="title">Registration</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="images-outline"></ion-icon>
+                        </span>
+                        <span class="title">Gallery</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        
+
+    <h2>Pemesanan Makanan</h2>
+    <p>Silahkan masukan pesanan anda pada form di bawah ini.</p>
+
+        <div class="container">
+            <form action="">
+                <div class="row">
+                <div class="col-25">
+                    <label for="fname">Nama Lengkap</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Masukan nama..">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-25">
+                    <label for="nomor">Nomor Telepon</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="nomor" name="nomor" placeholder="Masukan nomor..">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col-25">
+                    <label for="country">Menu Makanan</label>
+                </div>
+                <div class="col-75">
+                    <div class="menu">
+                        <div class="makanan">
+                            <img src="img/rendang.png" alt="">
+                            <h4>Rendang</h4>
+                            <h3>20K</h3>
+                            <input type="number" class="menu-item" id="rendang" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/otak-otak.png" alt="">
+                            <h4>Otak-otak</h4>
+                            <h3>10K</h3>
+                            <input type="number" class="menu-item" id="otak-otak" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/sate bandeng.png" alt="">
+                            <h4>Sate Bandeng</h4>
+                            <h3>22K</h3>
+                            <input type="number" class="menu-item" id="sate-bandeng" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/serabi.png" alt="">
+                            <h4>Serabi</h4>
+                            <h3>10K</h3>
+                            <input type="number" class="menu-item" id="serabi" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/nasi gudeg.png" alt="">
+                            <h4>Nasi Gudeg</h4>
+                            <h3>15K</h3>
+                            <input type="number" class="menu-item" id="nasi-gudeg" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/mie aceh.png" alt="">
+                            <h4>Mie Aceh</h4>
+                            <h3>25K</h3>
+                            <input type="number" class="menu-item" id="mie-aceh" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/ayam betutu.png" alt="">
+                            <h4>Ayam Betutu</h4>
+                            <h3>40K</h3>
+                            <input type="number" class="menu-item" id="ayam-betutu" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/pempek.png" alt="">
+                            <h4>Pempek</h4>
+                            <h3>12K</h3>
+                            <input type="number" class="menu-item" id="pempek" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/soto banjar.png" alt="">
+                            <h4>Soto Banjar</h4>
+                            <h3>20K</h3>
+                            <input type="number" class="menu-item" id="soto-banjar" min="0" max="10">
+                        </div>
+                        <div class="makanan">
+                            <img src="img/kerak telor.png" alt="">
+                            <h4>Kerak Telor</h4>
+                            <h3>9K</h3>
+                            <input type="number" class="menu-item" id="kerak-telor" min="0" max="10">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="deskripsi">Deskripsi</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="deskripsi" name="deskripsi" max="200" placeholder="Deskripsi tambahan.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <input type="submit" onclick="printFormData()" value="Pesan">
+                </div>
+            </form> 
+        </div>
+
+    <!-- javascript -->
+    <script src="assets/js/main.js"></script>
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
